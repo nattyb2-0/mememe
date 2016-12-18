@@ -39,8 +39,7 @@ module.exports = {
     loaders: [
       {
         test: /\.css$/,
-        test: /\.css$/, loader: ExtractTextPlugin.extract('style-loader', 'css-loader') },
-      },
+        test: /\.css$/, loader: ExtractTextPlugin.extract('style-loader', 'css-loader')},
       {
         test: /\.svg$/,
         loader: 'file-loader?name=/img/[name].[hash:base64:5].[ext]'
