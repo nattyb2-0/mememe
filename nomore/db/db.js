@@ -23,16 +23,16 @@
 // module.exports = db;
 
 
-const pgp = require('pg-promise')();
+// const pgp = require('pg-promise')();
 
-const config = {
-  host:       'localhost',
-  port:       5432,
-  database:   'project4',
-  user:       'nattydavis',
+// const config = {
+//   host:       'localhost',
+//   port:       5432,
+//   database:   'project4',
+//   user:       'nattydavis',
 
 
-};
-const db = pgp(config);
+// };
+// const db = pgp(config);
 
-module.exports = db;
+// module.exports = db;
