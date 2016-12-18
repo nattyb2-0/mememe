@@ -1,4 +1,4 @@
-const db = require('./db.js');
+const db = require('../db/db.js');
 
 function showAllUsers(req, res, next){
   db.any(`

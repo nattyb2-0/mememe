@@ -1,5 +1,5 @@
 //adding comment
-const db = require('./db.js');
+const db = require('../db/db.js');
 
 function showAllPosts(req, res, next){
   db.any(`
