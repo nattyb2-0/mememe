@@ -1,0 +1,101 @@
+.home h1 {
+  text-align: center;
+  color:black;
+}
+
+.top{
+  text-align: center;
+  width:60%;
+  height:auto;
+  margin: 0 auto;
+  margin-top: 0;
+ /* background-color: rgba(255,255,255,.7);*/
+  font-size: 1.7em;
+  padding: .4em;
+  color:white;
+
+}
+
+.descr{
+  text-align: center;
+  width:60%;
+  height:auto;
+  margin: 0 auto;
+  margin-top: 30px;
+  color:white;
+  font-size: 1.7em;
+
+}
+
+.insp{
+  text-align: center;
+  width:60%;
+  height:auto;
+  margin: 0 auto;
+  margin-top: 30px;
+  color:white;
+  font-size: 1.7em;
+}
+
+.home{
+/*  background-image: url('./back2.jpg');*/
+background-image: url('../newb.jpg');
+background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.wrksflex{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.home article{
+   width: 30%;
+    height: 200px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 8px;
+    padding: 8px;
+    font-size: 1.6em;
+}
+
+article h2 {
+    text-align: left;
+    font-size: 35px;
+    color: white;
+}
+.home ul{
+  font-size: 20px;
+  text-align: center;
+  border: 2px solid black;
+  width:30%;
+  margin: 0 auto;
+  background-color: rgba(255,255,255,.8);
+}
+
+#root-container > div > section.works > div {
+  color:white;
+  background-color: rgba(0,0,0,.5);
+}
+
+.home section{
+   background-color: rgba(0,0,0,.5);
+}
+#root-container > div > section.descr > h1{
+  color:red;
+}
+#root-container > div > section.insp > h1{
+  color:red;
+}
+
+#new > div:nth-child(1){
+  color:red;
+}
+#root-container > div > section.top > h1{
+  color:white;
+}

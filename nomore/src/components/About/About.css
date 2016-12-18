@@ -1,0 +1,15 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+section{
+  width:100%;
+}
+
+h2{
+    font-size: 63.61px;
+    line-height: 73.46px;
+    font-weight: 900;
+    width: 950px;
+    text-align: center;
+  }
