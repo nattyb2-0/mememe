@@ -1,69 +1,25 @@
-# PERN Single Page Application Template
+The reason behind recreating this app is that it means so much to be because i've been in the situation with no viable solution, and i know so many that would love to have a product like this....hence the reason i enrolled in the program.
 
-## What is this?
-Template to get started on a PERN stack Single Page Application (PostgreSQL, Express, React.js, Node.js)
+Technologies:
+-React
+-React Router
+-Socket.io
+-Oauth
+-Expess and Node ....or Rails
+-photo uploader
 
-### Technology Used
-- [PG-Promise](https://github.com/vitaly-t/pg-promise)
-  * To connect our PostgresSQL database
-- [Express.js](https://expressjs.com/)
-  * framework used for our API server
-- [React.js](https://facebook.github.io/react/)
-  * Client side library for our view layer
-- [Webpack](http://webpack.github.io/docs/)
-  * Application bundler used for our React client
-- [Dotenv](https://github.com/motdotla/dotenv)
-  * Loads `ENV` variables from a `.env` file
-- [CSS Modules](https://github.com/css-modules/css-modules) - [Demo of CSS Modules with Webpack](https://github.com/css-modules/webpack-demo)
+User Story
+when a person arrives at the site the will land on an impressively sleek landing page from which they can find out what the app is for, sign up, log-in and/or browse all the story boards that have been created by users, as well as search for inmates on the site.
+As a logged in user...you can search to see if there is a story board created already for an inmate that you know. If there is one, you can subscribe/follow that board and now begin posting your pics, stories, etc to the board.
+If a board does not exist...the user can then create a board for the user and begin to post to that board.
+From the user logged in home page they have a feed through which they can see activities going on around the board(s) they are subscribed to.
 
-## Getting Started
-**Install Node Module with**
-```
-$ npm install
-```
 
-**Run Webpack build and tell webpack to continue to watch for changes**
-```
-$ npm run watch
-```
--  The `watch` script is used for developmnet. It "watches" your `src/` directory
-for any changes and rebuilds your React Client to 
-
-**Open another terminal window and start your server**
-```
-$ npm start
-```
-
-## What's in the box?
-
-### Configuration Files
-  - `webpack.config.js` - Our webpack configuration for bundlign our client application
-  - `.babelrc` - Babel configuration file
-  - `scripts/` - Contains scripts to be run at deployment (look into the `package.json` to see where each script should be used)
-
-### Back End (API)
-  - `server.js` - Express server entry point
-  - `routes/` - Empty directory to store all of your server's API routes
-  - `models/` - Empty directory to store all of your models
-  - `db/` - Our database directory containing:
-      * `db.js`
-        - This is the database connection module that will use our Postgres
-        `ENV` variables stored in our `.env` file
-      * `schema.sql`
-        - Empty SQL file that can be used to setup and edityour applications 
-        relations
-        - You can run this file in your CLI using `psql -d <your_databaase> -f db/schema.sql`
-      * `seeds.sql`
-        - Empty SQL file that can used to seed your database
-        - You can run this file in your CLI using `psql -d <your_databaase> -f db/seeds.sql`
-
-### Front End (React Client)
-  - `src/` - Contains all of our React client's files
-    * `index.js` - The client application's entry point as defined in our webpack config
-    * `components/` - Directory to store all of our React components
-      - `App.jsx` - Our React applicaiton container component
-      - `App.css` - Basic styling for the `Hello World` application (check out the demo link of how to use css modules in the **Technology Used** section above)
-      - `normaliz.css` - (Necolas's)[https://necolas.github.io/normalize.css/] CSS normalize
-
-### Special Thanks
-Webpack configuration inspired by [Jason Seminara](@jasonseminara)'s [React To Do Application](https://github.com/jasonseminara/react_to-do)
+![ ScreenShot](./src/components/images/1.png?raw=true "FlickBook")
+![ ScreenShot](./src/components/images/2.png?raw=true "FlickBook")
+![ ScreenShot](./src/components/images/3.png?raw=true "FlickBook")
+![ ScreenShot](./src/components/images/4.png?raw=true "FlickBook")
+![ ScreenShot](./src/components/images/5.png?raw=true "FlickBook")
+![ ScreenShot](./src/components/images/6.png?raw=true "FlickBook")
+![ ScreenShot](./src/components/images/7.png?raw=true "FlickBook")
+![ ScreenShot](./src/components/images/8.png?raw=true "FlickBook")
