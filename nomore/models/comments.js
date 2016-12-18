@@ -1,4 +1,4 @@
-const db = require('../db/db.js');
+const db = require('./db.js');
 
 function showAllComments(req, res, next){
   console.log('inside show all comments')

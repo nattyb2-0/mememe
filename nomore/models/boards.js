@@ -1,4 +1,4 @@
-const db = require('../db/db.js');
+const db = require('./db.js');
 
 function showAllBoards(req, res, next){
   console.log('in this bitch')
